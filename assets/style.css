@@ -12,7 +12,9 @@ body {
   font-size: 4em;
   line-height: 1.5em;
   color:#EEEEEE;
-  padding: 1em;}
+  padding: 1em;
+  text-align: center;
+}
 
   .menu-header {
     text-transform:uppercase;
@@ -31,8 +33,8 @@ body {
     text-decoration: none;
     font-size: 1.2em;
     display:block;
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 30em;
+    margin-right: 30em;
     margin-top: 20px
     margin-bottom:20px;
     padding-left:20px;
@@ -42,23 +44,61 @@ body {
     border:2px solid white;
   }
 
+    .menu-option-panthers{
+      transform: perspective(220px) rotateY(-15deg)
+    }
+  .menu-option-broncos {
+    transform: perspective(220px) rotateY(15deg);
+  }
+
+
   .menu-option:hover {
     background: white;
     text-transform: black;
   }
 
+  /* Gameplay*/
 
+  .game-detail{
+    color:#EEEEEE;
+    font-family: helvetica;
+    display: inline-block;
+    margin: 2em;
+
+  }
+
+  .game-detail-health   {
+    float: left;
+    margin-left: 3em
+  }
+
+  .game-detail-time {
+    float:right;
+    margin-right:3em;  
+    }
+
+  .game-board {
+    margin-top: .5em;
+    display:block;
+    text-align: center;
+  }
+
+  .box {
+    display: inline-block;
+
+  }
 
 .card {
-  width: 100px;
-  height: 100px;
-  background: #009ad9;
-  display: block;
+  width: 115px;
+  height: 115px;
+  background: white;
+  border-radius: 1em;
+  display: inline-block;
   transition: background 1s,
   -webkit-transform 1s;
 }
 
-.box {  margin: 2em
+.box {  margin: .1em
   }
 a {
   display:inline-block;
