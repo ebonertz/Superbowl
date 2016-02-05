@@ -56,7 +56,7 @@
       border:2px solid white;
     }
 
-      .menu-option-panthers{
+    .menu-option-panthers{
         transform: perspective(200px) rotateY(-15deg)
       }
     .menu-option-broncos {
@@ -73,16 +73,15 @@
     }
 
     /* Gameplay*/
-
     .game-container  {
-      margin: .2em
+      margin: .5em
     }
 
-    .game-detail{
+    .game-detail {
       color:#EEEEEE;
       font-family: helvetica;
       display: inline-block;
-      margin: 2em;
+      margin: 1em;
 
     }
 
@@ -92,8 +91,8 @@
     }
 
     .game-detail-time {
-      float:right;
-      margin-right:3em;
+      float: right;
+      margin-right: 3em;
       }
 
   .game-board {
@@ -124,23 +123,12 @@
     padding: 2em;
     font-family:helvetica;
     -webkit-transform: rotateY(180deg);
-  }
-
-  .mirror {
-    transform-style: preserve-3d;
-    transform-style: flat;
-    color: red;
-    text-align: center;
-    padding-top: 1em;
+    text-shadow: left;
+    margin:auto;
+    margin: .1em;
   }
 
 
-  .box {  margin: .1em
-    }
-
-  a {
-    display:inline-block;
-  }
 
   /*when the checkbox is checked then*/
 
